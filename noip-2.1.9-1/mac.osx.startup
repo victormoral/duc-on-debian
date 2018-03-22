@@ -1,4 +1,5 @@
 These directions fro a Mac OS X startup file were contributed by a Mac user.
+METACABAN
 
 1/ Create a directory called /Library/StartupItems/noip2 
 	if it does not already exist.
@@ -7,7 +8,7 @@ These directions fro a Mac OS X startup file were contributed by a Mac user.
 
 {
     Description     = "No-IP Dynamic DNS Update Client";
-    Provides        = ("No-IP Dynamic DNS Update Client");
+    Provides        = ("No-IP Dynamic DNS Update Client");y
     Requires        = ("DirectoryServices");
     Uses            = ("Disks", "NFS");
     OrderPreference = ("None");
